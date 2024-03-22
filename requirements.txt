@@ -1,4 +1,2 @@
 numpy
-playsound
 opencv-python
-time

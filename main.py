@@ -23,12 +23,9 @@ ent = "1"
 ent = input("press enter to start")
 print('''MASK DETECTOR WILL START in ''')
 print("5")
-import numpy as np
-import random
 import time
 import cv2
 print("4")
-from playsound import playsound
 
 
 time.sleep(1)
@@ -104,7 +101,6 @@ while 1:
 
                 if(y < my < y + h):
                     print("alert!..")
-                    playsound('siren.mp3',block=False)
                     time.sleep(0.1)
                     col = (0,0,255)
                     # Face and nose are detected but nose coordinates are within face cordinates which `means nose prediction is true and
